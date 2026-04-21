@@ -1,0 +1,41 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    text-align: center;
+    flex-direction: column;
+}
+.header img{
+    padding: 20px;
+}
+.card-container img{
+    border-radius: 10px;
+}
+.card-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+.card-container h3,
+.card-container time{
+    display: flex;
+    padding: 20px;
+    text-align: start;
+    max-width: 450px; 
+    flex-wrap: wrap;
+}
+@media (max-width:700px){
+.card-container h3,
+.card-container time{
+    display: flex;
+    padding: 0px;
+    text-align: start;
+}
+}
