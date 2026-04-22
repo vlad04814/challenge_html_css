@@ -1,9 +1,12 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
 }
 .header{
     text-align: center;
-    flex-direction: column;
+    flex-direction: row;
+    padding: 20px;
+    flex-wrap: wrap;
 }
 .header img{
     padding: 20px;
@@ -23,19 +26,21 @@ body{
     padding: 20px;
     flex-wrap: wrap;
 }
-.card-container h3,
+.card-container h2,
 .card-container time{
     display: flex;
     padding: 20px;
     text-align: start;
     max-width: 450px; 
     flex-wrap: wrap;
+    font-size: medium;
 }
 @media (max-width:700px){
-.card-container h3,
+.card-container h2,
 .card-container time{
     display: flex;
     padding: 0px;
     text-align: start;
+    font-size: medium;
 }
 }
